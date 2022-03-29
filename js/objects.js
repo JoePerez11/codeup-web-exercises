@@ -61,9 +61,9 @@ console.log(person.sayHello());
         } else {
             var noSoupForYou = "No Soup for you!"
             console.log(noSoupForYou);
-        }
+        };
     })
-
+var lastName;
     /** TODO:
      * Create an array of objects that represent books and store it in a
      * variable named `books`. Each object should have a title and an author
@@ -76,7 +76,33 @@ console.log(person.sayHello());
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
+var books = [
+        {
+            Title: "Rich Dad",
+            Author: {firstName:"John", lastName: "Jones"},
+        },
+        {
+            Title: "Flight of the Moon Man",
+            Author: {firstName:"Scott", lastName:"Mescudi"},
+        },
+        {
+            Title: "Soft Skills",
+            Author: {firstName:"John", lastName:"Sonmez"},
+        },
+        {
+            Title: "Venom",
+            Author: {firstName:"Donny", lastName:"Cates"},
+        },
+        {
+            Title: "Thor",
+            Author: {firstName:"Jason", lastName:"Aaron"},
+        }
+];
 
+    console.log(books[0].Title);
+    console.log(books[3].Title);
+    console.log(books[3].Author.firstName);
+    console.log(books[3].Author.lastName);
     /**
      * TODO:
      * Loop through the books array and output the following information about
@@ -101,7 +127,11 @@ console.log(person.sayHello());
      *      ---
      *      ...
      */
-
+books.forEach(function (book) {
+        console.log("Book # ", books.indexOf(book) + 1);
+        console.log(book.Title);
+        console.log(book.Author.firstName, book.Author.lastName);
+})
     /**
      * Bonus:
      * - Create a function named `createBook` that accepts a title and author
