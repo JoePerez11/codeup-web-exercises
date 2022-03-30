@@ -66,11 +66,10 @@ console.log(yosefObj.getYounger());
 //     Example input: [3,g,s,5,j,8,2,d,6,h,9,l,5,s,2,3]
 // Expected Output: [a,s,j,d,h,l,s]
 
-var arr = [3,g,s,5,j,8,2,d,6,h,9,l,5,s,2,3]
+var arrayOfCharacters = [3,"g","s",5,"j",8,2,"d",6,"h",9,"l",5,"s",2,3];
 
-function removeNumbers () {
-    var onlyNumbers = arr.filter(
-        element => typeof element === 'number';
-        console.log (onlyNumbers)
-    );
+function filterOutNumbers(array) {
+    return array.filter(value => typeof value === 'string');
 }
+
+console.log(filterOutNumbers(arrayOfCharacters));
