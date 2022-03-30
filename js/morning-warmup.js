@@ -61,3 +61,16 @@ console.log(yosefObj.getYounger());
 // }
 //
 // return " I drive a " + car.make + " and I like to listen to station " + car.radioStations([1]) + ".";
+//
+// Write a function that filters out numbers from a list.
+//     Example input: [3,g,s,5,j,8,2,d,6,h,9,l,5,s,2,3]
+// Expected Output: [a,s,j,d,h,l,s]
+
+var arr = [3,g,s,5,j,8,2,d,6,h,9,l,5,s,2,3]
+
+function removeNumbers () {
+    var onlyNumbers = arr.filter(
+        element => typeof element === 'number';
+        console.log (onlyNumbers)
+    );
+}
