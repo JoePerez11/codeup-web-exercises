@@ -1,0 +1,59 @@
+header{
+    text-align: center;
+
+}
+
+header{
+    color: #2d0080;
+    text-decoration: underline;
+}
+body{
+    background-color: teal;
+    font-family: fantasy;
+}
+h2{
+    text-decoration: underline wavy;
+}
+section{
+    background-color: teal;
+    color: lightcoral;
+    width: 100%;
+    height: 50%;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/originals/01/44/95/014495927134c3ef54bf4ed77250da90.jpg");
+}
+
+#lit{
+    background-image: url("https://gifimage.net/wp-content/uploads/2018/05/snape-shrug-gif-3.gif");
+}
+
+#bye{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4c/Digital_rain_banner.gif");
+}
+li{
+    font-weight: bolder;
+    list-style-image: url('http://gifimgs.com/res/0422/62476c0f575cd244475837.gif');
+}
+
+thead{
+    text-decoration: underline wavy;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* unvisited link */
+a:link {
+    color: lightcoral;
+}
+
+footer{
+    text-align: center;
+}
