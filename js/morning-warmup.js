@@ -213,4 +213,8 @@ whiteSpace("purple");
 // If either or both inputs are not numeric or numeric strings, calculateChange should return false.
 
 
+// Write the code necessary to output the first 50 prime numbers
+// Recommend starting your loop at 1 and ending your loop once you've calcualted 50 primes.
+// https://en.wikipedia.org/wiki/Prime_number
+
 
