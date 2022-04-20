@@ -218,3 +218,38 @@ whiteSpace("purple");
 // https://en.wikipedia.org/wiki/Prime_number
 
 
+// Rewrite the following using a for-loop:
+// var i = 20;
+// while (i >= 0) {
+//     console.log(i);
+//     i--;
+// }
+// 2. Write a function that takes an object (a) as argument and returns an array with all object keys
+// example input: {a:1,b:2,c:3}
+// expected output: ['a','b','c']
+// ------------------------
+//     example input:{j:9,i:2,x:3,z:4}
+// expected output: ['j','i','x','z']
+
+// (hint hint hint: learn how to use a modulus)
+// 1.Write a function that iterates through numbers 1 and 15 and returns the numbers that are divisible by 3 (hint hint hint: learn how to use a modulus)
+
+function div3() {
+    for (var z = 1; z <= 15; z++) {
+        if (z % 3 === 0) {
+            return (console.log(z));
+        }
+    }
+}
+divisibleBy3();
+
+
+// 2. Extra Challenging - Set likely won’t be covered but it’s a useful tool in JS
+// Write a function that takes a Set and an array as arguments. If not already existing, add each element in the array to the Set. Return the modified Set
+//
+// example input: new Set([1, 2, 3]), [4, 5, 6]
+// expected output: new Set([1, 2, 3, 4, 5, 6 ])
+// -------------------------
+//     example input:new Set([1, 2, 3]), [2, 3]
+// expected output: new Set([1, 2, 3])
+//-------------------------
