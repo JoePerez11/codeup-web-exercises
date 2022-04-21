@@ -59,9 +59,9 @@ for(var i = 0; i <10; i++){
 // }
 
 function generatePyramid() {
-    var totalNumberofRows = 10;
+    var totalNumberOfRows = 10;
     var output = '';
-    for (var i = 1; i < totalNumberofRows; i++) {
+    for (var i = 1; i < totalNumberOfRows; i++) {
         for (var j = 1; j <= i; j++) {
             output += i;
         }
