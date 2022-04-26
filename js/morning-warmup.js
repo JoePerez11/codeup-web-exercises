@@ -253,3 +253,7 @@ divisibleBy3();
 //     example input:new Set([1, 2, 3]), [2, 3]
 // expected output: new Set([1, 2, 3])
 //-------------------------
+
+//Write a function that takes an array of numbers as argument and returns the number of negative values in the array
+// example Input: [1,-2,2,-4]
+// expected output: 2
