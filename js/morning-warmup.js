@@ -257,3 +257,18 @@ divisibleBy3();
 //Write a function that takes an array of numbers as argument and returns the number of negative values in the array
 // example Input: [1,-2,2,-4]
 // expected output: 2
+
+
+// Write a function that takes two date instances as argument
+// It should return the number of days that lies between those dates
+function dateDiff( str1, str2 ) {
+    var diff = Date.parse( str2 ) - Date.parse( str1 );
+    return isNaN( diff ) ? NaN : {
+        diff : diff,
+        ms : Math.floor( diff            % 1000 ),
+        s  : Math.floor( diff /     1000 %   60 ),
+        m  : Math.floor( diff /    60000 %   60 ),
+        h  : Math.floor( diff /  3600000 %   24 ),
+        d  : Math.floor( diff / 86400000        )
+    };
+}
