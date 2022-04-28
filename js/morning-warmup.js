@@ -272,3 +272,9 @@ function dateDiff( str1, str2 ) {
         d  : Math.floor( diff / 86400000        )
     };
 }
+// Write a function that takes an array (a) and a value (n) as arguments
+// Save every nth element in a new array
+// Return the new array
+
+example input: [1,2,3,4,5,6,7,8,9,10],3
+expected output: [3,6,9]
