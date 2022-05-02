@@ -276,5 +276,12 @@ function dateDiff( str1, str2 ) {
 // Save every nth element in a new array
 // Return the new array
 
-example input: [1,2,3,4,5,6,7,8,9,10],3
-expected output: [3,6,9]
+// example input: [1,2,3,4,5,6,7,8,9,10],3
+// expected output: [3,6,9]
+
+// Write a function that takes a string (a) as argument
+// Remove the first 3 characters of a
+// Return the result
+
+// example input:'abcdefg'
+// expected result: 'defg'
