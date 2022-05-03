@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery FAQ</title>
+</head>
+<body>
+<form action="submit" id="form">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="firstName"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="lastName"><br><br>
+    <input type="submit" value="Submit">
+</form>
+<div>
+    <h1>Would you like to sign up for our newsletter?</h1>
+    <span> X </span>
+</div>
+<br>
+<button class="appear">Click for Answers!</button>
+<dl>
+    <dt>Who is the director of the National Park Service?</dt>
+    <dd class="invisible">Margaret Everson, Counselor to the Secretary, is exercising the delegated authority of the Director of the National Park Service.</dd>
+    <br>
+    <dt>What government agency oversees the National Park Service?</dt>
+    <dd class="invisible">
+        The National Park Service is a bureau of the <a href="https://www.doi.gov/" target="_blank">Department of the Interior</a>. Directly overseeing its operation is the department's Assistant Secretary for Fish, Wildlife and Parks.</dd>
+    <br>
+    <dt>How many employees are in the National Park Service?</dt>
+    <dd class="invisible">
+        Permanent, temporary, and seasonal employees: Approximately 20,000</dd>
+    <br>
+    <dt>How old is the National Park System?</dt>
+    <dd class="invisible">
+        The National Park Service was created by an act signed by President Woodrow Wilson on August 25, 1916. Yellowstone National Park was established by an act signed by President Ulysses S. Grant on March 1, 1872, as the nation's first national park. View the National Park System <a href="https://www.nps.gov/parkhistory/hisnps/NPSHistory/timeline_annotated.htm" target="_blank">timeline</a>.</dd>
+    <br>
+    <dt>How many areas are in the National Park System?</dt>
+    <dd class="invisible">
+        The system includes 419 areas covering more than 85 million acres in every state, the District of Columbia, American Samoa, Guam, Puerto Rico, and the Virgin Islands. These areas include national parks, monuments, battlefields, military parks, historical parks, historic sites, lakeshores, seashores, recreation areas, scenic rivers and trails, and the White House. </dd>
+    <br>
+    <dt>How do I obtain a park entrance pass?</dt>
+    <dd class="invisible">
+        <a href="https://www.nps.gov/planyourvisit/fee-free-parks-state.htm" target="_blank">Fewer than one-third of the national parks charge entrance fees</a>. You can obtain park entrance passes by visiting a park site that charges an entrance fee. Entrance fee sites have passes available; we recommend calling a park prior to your visit. (See the <a href="https://www.nps.gov/findapark/index.htm" target="_blank">park search</a> to locate a specific park.) There are a number of entrance passes available, including park-specific passes as well as passes that offer entrance to more than 2,000 federal recreation sites in addition to the national parks (Annual, Military, Senior, 4th Grade, Access, and Volunteer passes). Learn more about the <a href="https://www.nps.gov/planyourvisit/passes.htm" target="_blank">America the Beautiful - The National Parks and Federal Recreational Lands Pass</a>.</dd>
+    <br>
+    <dt>How do I reserve a tour in a park?</dt>
+    <dd class="invisible">
+        You can book some park tours through <a href="https://www.recreation.gov/" target="_blank">Recreation.gov</a> such as Pearl Harbor National Memorial, many Mammoth Cave National Park cave tours, Independence National Historical Park tours, and more. Not all parks participate in this reservation service. For more information on tours offered at a specific park, please see the
+        <a href="https://www.nps.gov/planyourvisit/passes.htm" target="_blank">park search</a>.</dd>
+    <br>
+    <dt>Can I bring my pet to a national park?</dt>
+    <dd class="invisible">
+        Some national parks welcome pets—in developed areas, on many trails and campgrounds, and in some lodging facilities. Learn more about <a href="https://www.nps.gov/subjects/pets/index.htm" target="_blank">pets in parks</a>.</dd>
+    <br>
+    <dt>How do I apply for a job with the National Park Service?</dt>
+    <dd class="invisible">
+        National Park Service jobs, including both permanent and seasonal positions, are listed on <a href="https://www.nps.gov/aboutus/faqs.htm" target="_blank">USAJOBs</a>. Learn more about<a href="https://www.nps.gov/aboutus/workwithus.htm" target="_blank">working for us</a>, including opportunities for students and volunteers and tips for applying for jobs.</dd>
+    <br>
+    <dt>What is the most-visited national park?</dt>
+    <dd class="invisible">
+        <a href="https://www.nps.gov/aboutus/visitation-numbers.htm" target="_blank">View a list of the most-visited sites in the National Park Service</a>.</dd>
+</dl>
+<section>
+    <button id="facts">Highlight the last fact!!!!</button>
+    <h3>Yosemite National Park</h3>
+    <ul>
+        <li>The American Indians who live in Yosemite are called the Ahwahneechee Indians</li>
+        <li>Yosemite National Park is visited by over 3.5 million people every year</li>
+        <li>Yosemite Park was the first area of land set aside by the US government for preservation and protection</li>
+        <li>Though Half Dome and El Capitan are Yosemite’s most well known summits, Mt. Lyell is actually Yosemite’s highest peak
+        </li>
+    </ul>
+    <h3>Sequoia National Park</h3>
+    <ul>
+        <li>The first inhabitants known to have inhabited the area now designated as Sequoia National Park were the Monache Indians</li>
+        <li>Sequoia National Park was the second national park established in the United States - in 1890. It was established to protect the region's giant trees from logging</li>
+        <li>The most massive tree in the world - the General Sherman Tree - is located in the Giant Forest in Sequoia National Park</li>
+        <li>Sequoia trees are naturally fire resistant</li>
+    </ul>
+    <h3>Grand Teton National Park</h3>
+    <ul>
+        <li>The Tetons are the youngest range in the Rocky Mountains and some of the youngest mountains in the world</li>
+        <li>Eight peaks towering above 12,000 feet exist within the park. The highest peak, the Grand Teton, rises 13,770 feet above sea level</li>
+        <li>Archeologists have evidence that the first humans arrived in the Jackson Hole valley about 11,000 years ago. They lived in the valley from spring to fall but left during the winters</li>
+        <li>Earthquakes gave rise to the 40-mile-long Teton Range, which sits on a fault line</li>
+    </ul>
+</section>
+<script src="js/jquery.js"> </script>
+<script>
+    (function(){
+        "use strict"
+
+        $(document).ready(function(){
+            $('.invisible').css('visibility', 'hidden');
+        });
+        $('.appear').click(function(){
+            $('.invisible').css('visibility', 'visible');
+        });
+        $('dt').click(function(){
+            $(this).css('background-color', '#ff0');
+        });
+        $('#facts').click(function(){
+            $('ul').find('li:last').css('background-color', '#ff0');
+        });
+        $('ul').hide();
+        $('h3').click(function(){
+            $(this).next().children().css('font-weight','bold');
+            $(this).next('ul').slideToggle(1500);
+        });
+        $('li').click(function(){
+            $(this).parent().children('li').first().css('color','#00f');
+        });
+        $('span').click(function (){
+            $('div').css('visibility', 'hidden');
+        });
+        $('#form').hide().delay(2000).fadeIn(700);
+
+
+    })();
+</script>
+</body>
+</html>

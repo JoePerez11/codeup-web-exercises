@@ -285,3 +285,9 @@ function dateDiff( str1, str2 ) {
 
 // example input:'abcdefg'
 // expected result: 'defg'
+
+// Write a function that takes an object (a) as argument
+// Return an array with all object keys
+
+// example input: {a:1,b:2,c:3}
+// expected output: ['a','b','c']
