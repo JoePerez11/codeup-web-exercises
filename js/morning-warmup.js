@@ -291,3 +291,10 @@ function dateDiff( str1, str2 ) {
 
 // example input: {a:1,b:2,c:3}
 // expected output: ['a','b','c']
+
+// Write a function that takes a number (a) as argument
+// Split a into its individual digits and return them in an array
+// Tip: you might want to change the type of the number for the splitting
+
+// example input: 931
+// expected output: [9,3,1]
